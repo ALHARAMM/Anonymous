@@ -5,7 +5,7 @@ if str(choice) =='Y' or str(choice)=='y':
 
     run('chmod 777 Anonymous.py')
     run('mkdir /usr/share/Anonymous')
-    run('cp Anonymous.py /usr/share/aut/Anonymous.py')
+    run('cp Anonymous.py /usr/share/Anonymous/Anonymous.py')
 
     cmnd=(' #! /bin/sh \n exec python3 /usr/share/Anonymous/Anonymous.py "$@"')
     with open('/usr/bin/Anonymous','w')as file:
