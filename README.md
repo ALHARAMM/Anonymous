@@ -7,8 +7,7 @@ Changes your IP address by connecting through the Tor network.
 Allows for infinite IP changes or a specified number of changes.
 Easy to install and use.
 
-# Requirements
-
+## Requirements
 ```
 Python 3.x
 requests library
@@ -21,12 +20,12 @@ Tor service
 `git clone https://github.com/yourusername/Anon.git
 cd Anonymous
 `
-# Install dependencies: 
+## Install dependencies: 
 If requests is not installed, the script will prompt you to install it automatically. However, you can manually install it using:
 
 `pip3 install requests requests[socks]`
 
-# Install Tor: 
+## Install Tor: 
 The script checks if Tor is installed. If not, it will prompt you to install it. You can also install it 
 
 ## manually:
@@ -39,7 +38,7 @@ Start the Tor service:
 
 `service tor start`
 
-# Run the script:
+## Run the script:
 
 `python3 Anonymous.py`
 
